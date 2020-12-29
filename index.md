@@ -75,7 +75,7 @@ sections:
     members:
       - title: Rebecca Goldberg
         text: she/her/hers
-        image: assets/img/members/person1.jpg
+        image: assets/img/members/Goldberg_headshot.jpg
         url: 'about/'
 
   - type: timeline.html
