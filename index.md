@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Rebecca Goldberg Consulting
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Working with philanthropies, nonprofits, and educators to expand equitable learning opportunities within and outside of schools
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -14,11 +13,11 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Impact grows here.
+    text: Our team is dedicated to ensuring that educators are well-equipped to lead effective systems, schools, and programs that help kids thrive in adulthood. To do that successfully, we infuse evidence-based practices and partner feedback to continually refine and strengthen our approach.
     actions:
       - title: Get Started!
-        url: '#page-top'
+        url: '#services'
         class: btn-light
 
   - type: services.html
