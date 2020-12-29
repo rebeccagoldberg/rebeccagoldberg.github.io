@@ -112,7 +112,7 @@ sections:
       url: mailto:rebeccamgoldberg@gmail.com
     - title: LinkedIn
       icon: fa-linkedin
-      icon-type:fa-fb
+      icon_type: fab
       url: 'https://www.linkedin.com/in/rebeccamgoldberg/'
 
 ---
