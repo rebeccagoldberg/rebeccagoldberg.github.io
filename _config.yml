@@ -1,9 +1,9 @@
 # Site settings
-title: Your Title Here
+title: Rebecca Goldberg Consulting
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://www.rebeccagoldberg.org" # the base hostname & protocol for your site
+author: Copyright &copy; 2021 - Rebecca Goldberg
 lang: en_US
 
 # Build settings
