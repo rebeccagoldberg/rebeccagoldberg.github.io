@@ -25,24 +25,18 @@ sections:
     #background_style: bg-info
     title: At Your Service
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
+      - title: Strategy & Design
+        text: Organizational audit, strategy development, and tools for oversight and reporting. Program, initiative, and campaign design and strategy development.Work planning and performance evaluation tools for transparency, collaboration, and power sharing.
+        icon: fa-puzzle-piece text-info
         url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
+      - title: Change Management
+        text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
+        icon: fa-exchange
+      - title: Leadership Development
+        text: Leadership and management training, retreats, and coaching. Board development, strategy, training, and tools for transformation. Organizational team culture building retreats, training, and coaching. Coaching and mentorship with new and aspiring leaders and executives.
+        icon: fa-sitemap text-info
+      - title: Equity Initiatives
+        text: Equity audit and strategy development; including facilitation and guidance with implementation. Development of equity principles, screens, and other tools.
         icon: fa-heart
 
   - type: portfolio.html
