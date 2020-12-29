@@ -27,10 +27,10 @@ sections:
     services:
       - title: Strategy & Design
         text: Organizational audit, strategy development, and tools for oversight and reporting. Program, initiative, and campaign design and strategy development.Work planning and performance evaluation tools for transparency, collaboration, and power sharing.
-        icon: fa-cogs text-info
+        icon: fa-puzzle-piece text-info
       - title: Change Management
         text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
-        icon: fa-puzzle-piece
+        icon: fa-cogs
         icon_type: fab
       - title: Leadership Development
         text: Leadership and management training, retreats, and coaching. Board development, strategy, training, and tools for transformation. Organizational team culture building retreats, training, and coaching. Coaching and mentorship with new and aspiring leaders and executives.
