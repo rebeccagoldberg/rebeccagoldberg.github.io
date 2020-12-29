@@ -30,7 +30,7 @@ sections:
         icon: fa-puzzle-piece text-info
       - title: Change Management
         text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
-        icon: fa-exchange
+        icon: fa-arrows-h
         icon_type: fab
       - title: Leadership Development
         text: Leadership and management training, retreats, and coaching. Board development, strategy, training, and tools for transformation. Organizational team culture building retreats, training, and coaching. Coaching and mentorship with new and aspiring leaders and executives.
