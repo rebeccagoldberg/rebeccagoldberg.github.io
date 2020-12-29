@@ -130,7 +130,7 @@ sections:
       icon: fa-envelope
       url: mailto:rebeccamgoldberg@gmail.com
     - title: LinkedIn
-      icon: fa-linkedIn
+      icon: fa-linkedin
       url: 'https://www.linkedin.com/in/rebeccamgoldberg/'
 
 ---
