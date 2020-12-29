@@ -28,7 +28,6 @@ sections:
       - title: Strategy & Design
         text: Organizational audit, strategy development, and tools for oversight and reporting. Program, initiative, and campaign design and strategy development.Work planning and performance evaluation tools for transparency, collaboration, and power sharing.
         icon: fa-puzzle-piece text-info
-        url: https://startbootstrap.com/
       - title: Change Management
         text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
         icon: fa-exchange
@@ -125,6 +124,7 @@ sections:
       url: mailto:rebeccamgoldberg@gmail.com
     - title: LinkedIn
       icon: fa-linkedin
+      icon-type:fa-fb
       url: 'https://www.linkedin.com/in/rebeccamgoldberg/'
 
 ---
