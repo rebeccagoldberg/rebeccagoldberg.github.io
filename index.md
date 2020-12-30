@@ -15,8 +15,8 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: Impact grows here.
-    text: Our team is dedicated to ensuring that educators are well-equipped to lead effective systems, schools, and programs that help kids thrive in adulthood. To do that successfully, we infuse evidence-based practices and partner feedback to continually refine and strengthen our approach.
+    title: Let's Do This
+    text: I work with clients to connect existing but disparate strategies, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
     actions:
       - title: Get Started!
         url: '#services'
@@ -25,10 +25,10 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Ask Me About
     services:
       - title: Strategy & Design
-        text: Organizational audit, strategy development, and tools for oversight and reporting. Program, initiative, and campaign design and strategy development.Work planning and performance evaluation tools for transparency, collaboration, and power sharing.
+        text: Grantmaking strategy & implementation including racial equity grantmaking
         icon: fa-puzzle-piece text-info
       - title: Change Management
         text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
@@ -72,11 +72,11 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: About Me
     background_style: bg-info text-white
     members:
       - title: Rebecca Goldberg
-        text: she/her/hers
+        text: My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the Journal of Youth Development (http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11)
         image: assets/img/members/Goldberg_headshot.jpg
         url: 'about/'
 
