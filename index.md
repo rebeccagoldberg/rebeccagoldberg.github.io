@@ -1,7 +1,9 @@
 ---
 layout: home
 header:
+
   title: Rebecca Goldberg Consulting
+  image: assets/img/logo1.png
   text: >
     Working with philanthropies, nonprofits, and educators to expand equitable learning opportunities within and outside of schools
   action: # action button is optional
