@@ -83,10 +83,10 @@ sections:
         # img/portfolio/thumbnails
         icon: AIR1.png
         url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
-      - title: Project 2
+      - title: Paper 2
         text: Paper description 2.
         icon: 2.jpg
-        url: '#'
+        url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
   - type: contact.html
     section_id: contacts
     title: Get In Touch
