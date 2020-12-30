@@ -56,34 +56,6 @@ sections:
         #text: 
         icon: fa-heart
  
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
 
   - type: members.html
     section_id: members
@@ -133,4 +105,36 @@ sections:
       icon_type: fab
       url: 'https://www.linkedin.com/in/rebeccamgoldberg/'
 
+
+
+  - type: portfolio.html
+    # this section has always ID 'portfolio'
+    #section_id: portfolio
+    #background_style: bg-dark
+    projects:
+      - title: Project 1
+        text: This is a very short project description.
+        # the images are located in:
+        # img/portfolio/fullsize
+        # img/portfolio/thumbnails
+        icon: 1.jpg
+        url: '#'
+      - title: Project 2
+        text: This is a very short project description.
+        icon: 2.jpg
+        url: '#'
+      - title: Project 3
+        text: This is a very short project description.
+        icon: 3.jpg
+        url: '#'
+
+#  - type: aside.html
+#    section_id: aside
+#    title: Free Download at Start Bootstrap!
+#    actions:
+#      - title: Download Now!
+#        url: https://startbootstrap.com/themes/creative/
+#        class: btn-light
+        
+        
 ---
