@@ -1,3 +1,25 @@
+---
+layout: page
+title: Publications
+#background_style: bg-info
+background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
+# Add a link to the the top menu
+menus:
+  header:
+    title: Links
+    weight: 2
+sections:
+- type: paragraph.html
+  section_id: more-to-come
+  title: No HTML!
+#  background_style: bg-info
+#  text_style: text-left text-white
+  actions:
+   - title: Markdown is fun!
+     class: btn-info
+     url: '#'
+  text: >+
+
 # Publications
 
 In December 2020, I was proud to close out the five-year, $126M National Character Initiative of the S.D. Bechtel, Jr. Foundation as part of its foundation spend-down. Check out my [reflections on the initiative](https://www.issuelab.org/resources/37441/37441.pdf) and our grantees & partners' reflections on the initiative as captured by [American Institutes for Research](https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective)
