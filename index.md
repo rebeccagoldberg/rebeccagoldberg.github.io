@@ -36,7 +36,7 @@ sections:
         icon_type: fab
       - title: Funder collaboration
         #text: a
-        icon: fa-group text-info
+        icon: fa-users text-info
       - title: Designing and fostering communities of practice
         #text: a
         icon: fa-puzzle-piece
