@@ -71,7 +71,22 @@ sections:
         url: '/publications'
         class: btn-light
 
-
+  - type: portfolio.html
+    # this section has always ID 'portfolio'
+    #section_id: publications
+    #background_style: bg-dark
+    projects:
+      - title: Paper 1
+        text: Paper description 1.
+        # the images are located in:
+        # img/portfolio/fullsize
+        # img/portfolio/thumbnails
+        icon: AIR1.png
+        url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
+      - title: Project 2
+        text: Paper description 2.
+        icon: 2.jpg
+        url: '#'
   - type: contact.html
     section_id: contacts
     title: Get In Touch
