@@ -3,15 +3,11 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: About
-  url: /#about
-- title: Services
-  url: /#services
-- title: Members
-  url: /#members
-- title: History
-  url: /#timeline
-- title: Contacts
+- title: Let's Do This
+  url: /#letsdothis
+- title: Ask Me About
+  url: /#askmeabout
+- title: About Me
+  url: /#aboutme
+- title: Contact
   url: /#contacts
-- title: Links
-  url: /links
