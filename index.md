@@ -5,7 +5,7 @@ header:
   title: Rebecca Goldberg Consulting
   image: assets/img/logo1.png
   text: >
-    Working with philanthropies, nonprofits, and educators to expand equitable learning opportunities within and outside of schools
+    Partnering with foundations and nonprofits to remove barriers and create equitable learning environments so that all young people thrive.
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -27,19 +27,35 @@ sections:
     #background_style: bg-info
     title: Ask Me About
     services:
-      - title: Strategy & Design
-        text: Grantmaking strategy & implementation including racial equity grantmaking
+      - title: Grantmaking strategy & implementation including racial equity grantmaking
+        text: 
         icon: fa-puzzle-piece text-info
-      - title: Change Management
-        text: Executive leadership transition strategy and implementation including search, on-boarding, and interim supports. Change management audit, strategy development, and facilitation for inclusive and responsive implementation.
+      - title: Trust-based philanthropy
+        text:
         icon: fa-cogs
         icon_type: fab
-      - title: Leadership Development
-        text: Leadership and management training, retreats, and coaching. Board development, strategy, training, and tools for transformation. Organizational team culture building retreats, training, and coaching. Coaching and mentorship with new and aspiring leaders and executives.
+      - title: Funder collaboration
+        text:
         icon: fa-sitemap text-info
-      - title: Equity Initiatives
-        text: Equity audit and strategy development; including facilitation and guidance with implementation. Development of equity principles, screens, and other tools.
+      - title: Designing and fostering communities of practice
+        text: 
         icon: fa-heart
+      - title: Youth development
+        text: 
+        icon: fa-heart
+      - title: Social-emotional learning
+        text: 
+        icon: fa-heart
+      - title: Whole child education and policy
+        text: 
+        icon: fa-heart
+      - title: Organizational development
+        text: 
+        icon: fa-heart
+       - title: Workforce development & career pathways
+        text: 
+        icon: fa-heart
+       
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
