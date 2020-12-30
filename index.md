@@ -73,7 +73,7 @@ sections:
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
-    #section_id: publications
+    section_id: publications
     #background_style: bg-dark
     projects:
       - title:
