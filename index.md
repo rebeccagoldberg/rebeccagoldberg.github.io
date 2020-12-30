@@ -28,35 +28,34 @@ sections:
     title: Ask Me About
     services:
       - title: Grantmaking strategy & implementation including racial equity grantmaking
-        text: 
+        #text: a
         icon: fa-puzzle-piece text-info
       - title: Trust-based philanthropy
-        text:
+        #text: a
         icon: fa-cogs
         icon_type: fab
       - title: Funder collaboration
-        text:
+        #text: a
         icon: fa-sitemap text-info
       - title: Designing and fostering communities of practice
-        text: 
+        #text: a
         icon: fa-heart
       - title: Youth development
-        text: 
+        #text: a
         icon: fa-heart
       - title: Social-emotional learning
-        text: 
+        #text: 
         icon: fa-heart
       - title: Whole child education and policy
         text: 
         icon: fa-heart
       - title: Organizational development
-        text: 
+        #text: 
         icon: fa-heart
-       - title: Workforce development & career pathways
-        text: 
+      - title: Workforce development & career pathways
+        #text: 
         icon: fa-heart
-       
-
+ 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
