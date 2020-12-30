@@ -8,7 +8,7 @@ header:
     Partnering with foundations and nonprofits to remove barriers and create equitable learning environments so that all young people thrive.
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '#letsdothis'
 
 
 sections:
@@ -66,10 +66,9 @@ sections:
         text: My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the <a href='http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'>Journal of Youth Development</a>
         image: assets/img/members/Goldberg_headshot.jpg
         url: 'about'
-    actions:
-       - title: Publications
-         class: btn-info
-         url: 'publications'
+    action: # action button is optional
+      label: Find Out More
+      url: '#letsdothis'
 
   - type: timeline.html
     section_id: timeline
