@@ -29,7 +29,7 @@ sections:
     services:
       - title: Grantmaking strategy & implementation including racial equity grantmaking
         #text: a
-        icon: fa-puzzle-piece text-info
+        icon: fa-book text-info
       - title: Trust-based philanthropy
         #text: a
         icon: fa-cogs
@@ -76,8 +76,8 @@ sections:
     section_id: contacts
     title: Get In Touch
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Ready to start your next project with me? Give me a call or send me an email
+      and I will get back to you as soon as possible!
     actions:
     - title: +1 (908) 451 9410
       icon: fa-phone
