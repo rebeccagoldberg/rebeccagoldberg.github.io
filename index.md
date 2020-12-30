@@ -36,7 +36,7 @@ sections:
         icon_type: fab
       - title: Funder collaboration
         #text: a
-        icon: fa-handshake text-info
+        icon: fa-group text-info
       - title: Designing and fostering communities of practice
         #text: a
         icon: fa-puzzle-piece
@@ -45,13 +45,13 @@ sections:
         icon: fa-paint-brush
       - title: Social-emotional learning
         #text: 
-        icon: fa-heart
+        icon: fa-heart text-info
       - title: Whole child education and policy
         text: 
         icon: fa-child
       - title: Organizational development
         #text: 
-        icon: fa-sitemap
+        icon: fa-sitemap text-info
       - title: Workforce development & career pathways
         #text: 
         icon: fa-map
