@@ -76,17 +76,29 @@ sections:
     #section_id: publications
     #background_style: bg-dark
     projects:
-      - title: Paper 1
-        text: Paper description 1.
+      - title:
+        text: Explore grantee reflections on the Foundation’s National Character Initiative.
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: AIR1.png
         url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
-      - title: Paper 2
-        text: Paper description 2.
-        icon: 2.jpg
-        url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
+      - title: 
+        text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
+        icon: MeasureUseImprove1.png
+        url: 'https://www.infoagepub.com/products/Measure-Use-Improve'
+      - title: 
+        text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
+        icon: Interview1.png
+        url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
+     - title: 
+        text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
+        icon: RisingTide.png
+        url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
+     - title: 
+        text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
+        icon: SEL-OOS.png
+        url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
   - type: contact.html
     section_id: contacts
     title: Get In Touch
