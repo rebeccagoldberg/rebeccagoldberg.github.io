@@ -13,17 +13,17 @@ header:
 
 sections:
   - type: call-to-action.html
-    section_id: about
+    section_id: letsdothis
     background_style: bg-primary
     title: Let's Do This
     text: I work with clients to connect existing but disparate strategies, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
     actions:
       - title: Get Started!
-        url: '#services'
+        url: '#askmeabout'
         class: btn-light
 
   - type: services.html
-    section_id: services
+    section_id: askmeabout
     #background_style: bg-info
     title: Ask Me About
     services:
@@ -58,14 +58,14 @@ sections:
  
 
   - type: members.html
-    section_id: members
+    section_id: aboutme
     title: About Me
     background_style: bg-info text-white
     members:
       - title: Rebecca Goldberg
         text: My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the <a href='http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'>Journal of Youth Development</a>
         image: assets/img/members/Goldberg_headshot.jpg
-        url: 'about/'
+        url: 'about'
     actions:
        - title: Publications
          class: btn-info
