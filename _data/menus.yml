@@ -9,7 +9,7 @@ header:
   url: /#askmeabout
 - title: About Me
   url: /#aboutme
-  - title: Publications
+- title: Publications
   url: /#publications
 - title: Contact
   url: /#contacts
