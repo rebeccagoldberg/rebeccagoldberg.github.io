@@ -39,22 +39,22 @@ sections:
         icon: fa-sitemap text-info
       - title: Designing and fostering communities of practice
         #text: a
-        icon: fa-heart
+        icon: fa-puzzle-piece
       - title: Youth development
         #text: a
-        icon: fa-heart
+        icon: fa-group
       - title: Social-emotional learning
         #text: 
         icon: fa-heart
       - title: Whole child education and policy
         text: 
-        icon: fa-heart
+        icon: fa-mortar-board
       - title: Organizational development
         #text: 
-        icon: fa-heart
+        icon: fa-sitemap
       - title: Workforce development & career pathways
         #text: 
-        icon: fa-heart
+        icon: fa-map
  
 
   - type: members.html
