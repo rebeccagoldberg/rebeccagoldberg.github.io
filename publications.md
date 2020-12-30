@@ -6,5 +6,4 @@ For my thoughts on evaluation, see the "Using Data for Learning: A Funder's Pers
 
 Learn more about the statewide strategy I led to infuse social-emotional learning practices in California's expanded learning programs [here](http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09). 
 
-A chapter on three foundations' approach to funding social-emotional learning in [Social and Emotional Learning in Out-of-School Time by Information Age Publishing]
-(https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time).
+A chapter on three foundations' approach to funding social-emotional learning in [Social and Emotional Learning in Out-of-School Time by Information Age Publishing](https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time).
