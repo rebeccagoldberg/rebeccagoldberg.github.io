@@ -66,10 +66,10 @@ sections:
         text: My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the <a href='http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'>Journal of Youth Development</a>
         image: assets/img/members/Goldberg_headshot.jpg
         url: 'about/'
-          actions:
+    actions:
        - title: Publications
          class: btn-info
-         url: 'publications/'
+         url: 'publications'
 
   - type: timeline.html
     section_id: timeline
