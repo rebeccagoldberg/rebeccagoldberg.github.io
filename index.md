@@ -32,23 +32,23 @@ sections:
         icon: fa-book text-info
       - title: Trust-based philanthropy
         #text: a
-        icon: fa-cogs
+        icon: fa-handshake
         icon_type: fab
       - title: Funder collaboration
         #text: a
-        icon: fa-sitemap text-info
+        icon: fa-handshake text-info
       - title: Designing and fostering communities of practice
         #text: a
         icon: fa-puzzle-piece
       - title: Youth development
         #text: a
-        icon: fa-group
+        icon: fa-paint-brush
       - title: Social-emotional learning
         #text: 
         icon: fa-heart
       - title: Whole child education and policy
         text: 
-        icon: fa-mortar-board
+        icon: fa-child
       - title: Organizational development
         #text: 
         icon: fa-sitemap
