@@ -68,7 +68,7 @@ sections:
         url: 'about'
     actions:
       - title: Publications
-        url: '/publications'
+        url: '#publications'
         class: btn-light
 
   - type: portfolio.html
