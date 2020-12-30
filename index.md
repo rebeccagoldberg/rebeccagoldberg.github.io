@@ -91,11 +91,11 @@ sections:
         text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
         icon: Interview1.png
         url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
-     - title: 
+      - title: 
         text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
         icon: RisingTide.png
         url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
-     - title: 
+      - title: 
         text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
         icon: SEL-OOS.png
         url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
