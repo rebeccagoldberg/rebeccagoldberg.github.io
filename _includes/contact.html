@@ -39,15 +39,15 @@
             </div>
           </form>
         </div>
-   
       </div>
     </div>
     <div class="row justify-content-center">
       <hr class="divider my-4">
+     
       {% for action in section.actions %}
       {% assign fa = action.icon_type | default: "fas" %}
       <div class="col ml-auto text-center">
-        <a class="d-block" href="{{ action.url }}">{{ action.title }}<i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i></a>
+        <a class="d-block" href="{{ action.url }}">{{ action.title }}<br/><i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i></a>
       </div>
       {% endfor %}
     </div>
