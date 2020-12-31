@@ -108,7 +108,7 @@ sections:
     actions:
     - title: +1 (908) 451 9410
       icon: fa-phone
-      url: 'tel:9084519410'
+      url: 'tel:+19084519410'
     - title: E-Mail
       icon: fa-envelope
       url: mailto:rebeccamgoldberg@gmail.com
