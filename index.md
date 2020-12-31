@@ -66,9 +66,8 @@ sections:
         text: >
           My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the [Journal of Youth Development](http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11)
 
-
+        text2: >
           **Board Service**: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
-        
         image: assets/img/members/Goldberg_headshot.jpg
         url: 'about'
     actions:
@@ -110,7 +109,9 @@ sections:
     section_id: contacts
     title: Get In Touch
     text: >-
-      Ready to start your next project with me? Give me a call or send me an email
+      Ready to start your next project with me? Send me a message through this form.
+     text: >-
+      You can also give me a call or send me an email
       and I will get back to you as soon as possible!
     actions:
     - title: +1 (908) 451 9410
