@@ -79,7 +79,9 @@ sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
     section_id: publications
-    #background_style: bg-dark
+    background_style: bg-dark
+    text: >
+      I've participated in several publications in the **Social Emotional Learning** and **Character Development** fields.
     projects:
       - title:
         text: Explore grantee reflections on the Foundation’s National Character Initiative.
