@@ -64,7 +64,8 @@ sections:
     members:
       - title: Rebecca Goldberg
         text: >
-          My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the <a href='http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'>Journal of Youth Development</a>
+          My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the [Journal of Youth Development](http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11)
+
 
           **Board Service**: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
         
