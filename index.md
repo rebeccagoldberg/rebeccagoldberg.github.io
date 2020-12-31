@@ -77,7 +77,7 @@ sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
     section_id: publications
-    #background_style: bg-dark
+    #background_style: bg-info text-white
     text: >
       I've participated in several publications in the **Social Emotional Learning** and **Character Development** fields.
     projects:
@@ -105,8 +105,9 @@ sections:
         icon: SEL-OOS.png
         url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
   - type: contact.html
-    section_id: contacts
+    section_id: contacts 
     title: Get In Touch
+    background_style: bg-info text-white
     text: >-
       Ready to start your next project with me? Send me a message through this form.
     text2:  >-
