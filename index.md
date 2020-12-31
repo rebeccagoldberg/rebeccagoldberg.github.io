@@ -66,7 +66,7 @@ sections:
         text: >
           My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the <a href='http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'>Journal of Youth Development</a>
 
-          *Board Service*: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
+          **Board Service**: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
         
         image: assets/img/members/Goldberg_headshot.jpg
         url: 'about'
