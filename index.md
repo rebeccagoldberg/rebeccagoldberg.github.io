@@ -3,7 +3,7 @@ layout: home
 header:
 
   title: Rebecca Goldberg Consulting
-  image: assets/img/logo1.png
+  image: assets/img/logo2.png
   text: >
     Partnering with foundations and nonprofits to remove barriers and create equitable learning environments so that all young people thrive.
   action: # action button is optional
