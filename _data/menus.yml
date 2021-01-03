@@ -3,9 +3,9 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: Let's Do This
+- title: Mission
   url: /#letsdothis
-- title: Ask Me About
+- title: Expertise
   url: /#askmeabout
 - title: About Me
   url: /#aboutme
