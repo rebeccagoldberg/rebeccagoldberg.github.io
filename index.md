@@ -65,10 +65,8 @@ sections:
     text2: >
           **Board Service**: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
     background_style: bg-info text-white
-    members:
-      - title: Rebecca Goldberg
-        image: assets/img/members/Goldberg_headshot.jpg
-        url: 'about'
+    membertitle: Rebecca Goldberg
+    memberimage: assets/img/members/Goldberg_headshot.jpg
     actions:
       - title: Publications
         url: '#publications'
