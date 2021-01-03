@@ -64,7 +64,15 @@ sections:
     members:
       - title: Rebecca Goldberg
         text: >
-          My journey as a youth worker and advocate for young people and the youth development workforce is captured in this interview by Deborah Moroney and Jill Young of American Institutes for Research in the [Journal of Youth Development](http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11)
+          As a Senior Program Officer at the S.D. Bechtel, Jr. Foundation, I led a $130M National Character Initiative as part of the Foundation’s spend-down strategy which concluded in December 2020. The initiative focused on supporting national youth development organizations and California’s publicly-funded after-school system with quality improvement; implementing evidence-based character development and social-emotional learning practices; addressing organizational inequities by confronting structural racism, cultural appropriation, and the need for creating pathways to leadership for staff of color; organizational capacity building; and growth. Collectively, the initiative’s grantees served approximately half the school-age population in the country.
+
+While at the Foundation, I served on the Steering Committee of Grantmakers for Thriving Youth and chaired its Out-of-School Time Work Group. I also helped launched Grantmakers for Education’s Out-ofSchool-Time Impact Group. 
+
+Prior to the Foundation, my work focused on youth development and workforce development. At the California School-Age Consortium, a statewide organization that supports after-school programs with training and leadership development, I led workforce initiatives to build the pipeline and preparation for after-school staff. At a community-based organization in Los Angeles, I led career & workforce development initiatives spearheading new program development, employer engagement, and career pathways into energy/pharmaceuticals, entertainment, and teaching. In this role, I led the statewide scaling of the California Teacher Pathway from Los Angeles to 10 community college/California State University partnerships throughout the state.
+
+I believe in board service and am a committed board member for Playworks Northern California, Forum for Youth Investment, and MENTOR California.
+
+In my free time, you’ll find me cuddling with my cat Madison, playing with my son Cooper, reading thriller crime novels, cooking, going for walks, or bingeing trashy and not so trashy TV.
         text2: >
           **Board Service**: I am a committed board member of Playworks Northern California, Forum for Youth Investment, and MENTOR California.
         image: assets/img/members/Goldberg_headshot.jpg
