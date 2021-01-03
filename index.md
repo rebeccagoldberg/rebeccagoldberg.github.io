@@ -79,10 +79,10 @@ sections:
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
     boards:
-       - url: Playworks
+      - url: Playworks
         title: Playworks Northern California
         img: img.jpg 
-       - url: FFYI
+      - url: FFYI
         title: Forum for Youth Investment
         img: img.jpg         
       - url: MENTOR
