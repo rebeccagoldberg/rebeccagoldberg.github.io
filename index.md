@@ -42,7 +42,7 @@ sections:
         icon: fa-comment
       - title: Designing and fostering communities of practice
         #text: a
-        icon: fa-puzzle-piece
+        icon: fa-puzzle-piece text-info
       - title: Youth development
         #text: a
         icon: fa-paint-brush
