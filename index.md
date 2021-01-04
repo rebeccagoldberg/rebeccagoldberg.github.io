@@ -94,7 +94,7 @@ sections:
     section_id: publications
     #background_style: bg-info text-white
     text: >
-      I've participated in several publications in the **Social Emotional Learning** and **Character Development** fields.
+      I've contributed to several publications in the social-emotional learning and youth development fields.
     projects:
       - title:
         text: Explore grantee reflections on the Foundation’s National Character Initiative.
@@ -116,7 +116,7 @@ sections:
         icon: RisingTide.png
         url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
       - title: 
-        text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
+        text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
         icon: SEL-OOS.png
         url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
   - type: contact.html
