@@ -77,13 +77,13 @@ sections:
     boards:
       - url: https://www.playworks.org/northern-california/
         title: Playworks Northern California
-        img: img.jpg 
+        img: playworkslogo.png
       - url: https://forumfyi.org/
         title: Forum for Youth Investment
-        img: img.jpg         
+        img: fyilogo.png      
       - url: https://www.mentorcaliforniayouth.org/
         title: MENTOR California
-        img: img.jpg 
+        img: MENTORCA.jpeg
     actions:
       - title: Publications
         url: '#publications'
