@@ -37,6 +37,9 @@ sections:
       - title: Funder collaboration
         #text: a
         icon: fa-users text-info
+      - title: Thought partnership and advising
+        #text: 
+        icon: fa-lightbulb-o
       - title: Designing and fostering communities of practice
         #text: a
         icon: fa-puzzle-piece
@@ -47,7 +50,7 @@ sections:
         #text: 
         icon: fa-heart text-info
       - title: Whole child education and policy
-        text: 
+        #text: 
         icon: fa-child
       - title: Organizational development
         #text: 
