@@ -27,7 +27,7 @@ sections:
     #background_style: bg-info
     title: Ask Me About
     services:
-      - title: Grantmaking strategy & implementation including racial equity grantmaking
+      - title: Grantmaking strategy including racial equity grantmaking
         #text: a
         icon: fa-book text-info
       - title: Trust-based philanthropy
