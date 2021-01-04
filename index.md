@@ -124,10 +124,7 @@ sections:
     title: Get In Touch
     background_style: bg-info text-white
     text: >-
-      Ready to start your next project with me? Send me a message through this form.
-    text2:  >-
-      You can also give me a call or send me an email
-      and I will get back to you as soon as possible!
+      Ready to start your next project with me? Send me a message!
     actions:
     - title: +1 (908) 451 9410
       icon: fa-phone
