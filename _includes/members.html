@@ -13,12 +13,7 @@
       <div class="text-white-50 mb-4 ">{{ paragraph.text | markdownify }}</div>
         {% endfor %}
      <div class="container text-center">
-        {% for board in section.boards %} 
-       <div class="member-box">
-          <a href="{{board.url}}"><img class="fa fa-4x text-primary" src="/assets/img/{{ board.img }}" alt="{{ board.title }}"></a>
-        </div>  
-       {% endfor %}
-       
+
         <div class="row justify-content-center">
       <!-- {#% assign cols = section.services.size | at_most: 4 %#} -->
       {% assign cols = section.boards.size %}
@@ -37,7 +32,7 @@
       </div>
       {% endfor %}
     </div>
-       
+    </div>    
     {% include actions.html actions=section.actions %}
   </div>
 </section>
