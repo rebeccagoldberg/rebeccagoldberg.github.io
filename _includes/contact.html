@@ -50,7 +50,7 @@
       {% for action in section.actions %}
       {% assign fa = action.icon_type | default: "fas" %}
       <div class="col ml-auto text-center">
-        <a class="d-block" href="{{ action.url }}"><i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i><br/>{{ action.title }}</a>
+        <a class="d-block" href="{{ action.url }}"><i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-white-75"></i></a>
       </div>
       {% endfor %}
     </div>
