@@ -40,9 +40,11 @@
           </form>
         </div>
       </div>
-      <hr class="divider light my-4">
     </div>
+  </div>
+ <div class="container">
     <div class="row justify-content-center">
+      <hr class="divider light my-4">
       {% for action in section.actions %}
       {% assign fa = action.icon_type | default: "fas" %}
       <div class="col ml-auto text-center">
