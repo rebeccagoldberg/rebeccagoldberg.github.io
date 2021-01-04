@@ -39,7 +39,7 @@ sections:
         icon: fa-users text-info
       - title: Thought partnership and advising
         #text: 
-        icon: fa-lightbulb-o
+        icon: fa-comment
       - title: Designing and fostering communities of practice
         #text: a
         icon: fa-puzzle-piece
