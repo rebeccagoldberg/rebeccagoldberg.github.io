@@ -42,11 +42,6 @@
       </div>
     </div>
     <div class="row justify-content-center">
-       <div class="col-lg-8 text-center">
-      <hr class="divider my-4">
-        <p>{{ section.text2 }}</p>
-         </div>
-      <br/>
       {% for action in section.actions %}
       {% assign fa = action.icon_type | default: "fas" %}
       <div class="col ml-auto text-center">
