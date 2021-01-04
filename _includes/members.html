@@ -18,6 +18,26 @@
           <a href="{{board.url}}"><img class="fa fa-4x text-primary" src="/assets/img/{{ board.img }}" alt="{{ board.title }}"></a>
         </div>  
        {% endfor %}
+       
+        <div class="row justify-content-center">
+      <!-- {#% assign cols = section.services.size | at_most: 4 %#} -->
+      {% assign cols = section.services.size %}
+      {% if cols > 4 %}
+        {% assign cols = 4 %}
+      {% endif %}
+
+      {% assign colsL = 12 | divided_by: cols %}
+      {% assign colsM = colsL | times: 2 %}
+
+      {% for board in section.boards %}
+      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
+        <div class="mt-5">
+         <a href="{{board.url}}"><img class="fa fa-4x text-primary" src="/assets/img/{{ board.img }}" alt="{{ board.title }}"></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+       
     {% include actions.html actions=section.actions %}
   </div>
 </section>
