@@ -26,6 +26,9 @@ sections:
     section_id: askmeabout
     #background_style: bg-info
     title: Ask Me About
+    actions:
+      - title: Why me?
+        url: '#aboutme'
     services:
       - title: Grantmaking strategy including racial equity grantmaking
         #text: a
@@ -96,6 +99,9 @@ sections:
     # this section has always ID 'portfolio'
     section_id: publications
     #background_style: bg-info text-white
+    actions:
+      - title: Reach out
+        url: '#contacts'
     text: >
       I've contributed to several publications in the social-emotional learning and youth development fields.
     projects:
