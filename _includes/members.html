@@ -27,12 +27,15 @@
       {% for board in section.boards %}
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
+          <div class="member-box">
          <a href="{{board.url}}"><img class="fa fa-4x text-primary" src="/assets/img/{{ board.img }}" alt="{{ board.title }}"></a>
+          </div>
         </div>
       </div>
       {% endfor %}
     </div>
     </div>    
+       <hr class="divider light my-4">
     {% include actions.html actions=section.actions %}
   </div>
 </section>
