@@ -16,7 +16,8 @@ sections:
     section_id: letsdothis
     background_style: bg-primary
     title: Let's Do This
-    text: I work with clients to connect strategies and ideas, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
+    text: >
+      I work with clients to connect strategies and ideas, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
     actions:
       - title: Get Started!
         url: '#askmeabout'
