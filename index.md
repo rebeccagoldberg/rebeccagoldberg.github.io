@@ -65,17 +65,17 @@ sections:
     title: About Me
     paragraphs:
       - text: >
-          I am passionate about creating opportunities for young people to lead and thrive. To do this, we must dismantle barriers to their success including addressing structural inequities that exist in our educational and nonprofit sectors. 
+            I am passionate about creating opportunities for young people to lead and thrive. To do this, we must dismantle barriers to their success including addressing structural inequities that exist in our educational and nonprofit sectors. 
       - text: >
           I spent the last seven years in philanthropy leading a national youth development strategy as part of the [S.D. Bechtel, Jr. Foundation's](http://sdbjrfoundation.org/) spend-down. Through that work, the importance of building  organizational capacity, making data-informed decisions, and addressing organizational and field-wide inequities became clear, especially in helping organizations navigate uncertainties. Before that, I led nonprofit initiatives focused on creating equitable learning environments for young people through youth development and career pathway programs.
       - text: >
-        I continue to do this work as a Board member of [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/). 
+          I continue to do this work as a Board member of [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/). 
       - text: >
-        I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
+          I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
-        Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
+          Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
       - text: >
-        Read my full bio here.
+          Read my full bio here.
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
