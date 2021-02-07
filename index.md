@@ -95,20 +95,6 @@ sections:
         url: '#publications'
         class: btn-light
 
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    section_id: publications
-    #background_style: bg-info text-white
-    actions:
-      - title: Reach out
-        url: '#contacts'
-    text: >
-      For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Grantees share their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
-    projects:
-      - title:
-        text: Explore grantee reflections on the Foundation’s National Character Initiative.
-        icon: AIR1.png
-        url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
 
   - type: contact.html
     section_id: contacts 
@@ -128,55 +114,4 @@ sections:
       icon_type: fab
       url: 'https://www.linkedin.com/in/rebeccamgoldberg/'
 
-#  - type: timeline.html
-#    section_id: timeline
-#    title: Major Achievements!
-#    background_style: bg-dark text-primary
-#    last_image: assets/img/timeline-end.png
-#    actions:
-#      - image: assets/img/portfolio/thumbnails/1.jpg
-#        title: >+
-#          2017-2018
-#          **Humble Beginnings**
-#        text: >-
-#          We begun with small group of people willing to work hard and make our
-#          teaching skills worth , in front of all others!
-#      - image: assets/img/portfolio/thumbnails/2.jpg
-#        title: >+
-#          November 2019
-#          An Coaching started
-#        text: >-
-#          We started to gather like minded people and started our stategies
-#          and future plans to them. As a result , interested people joined us!
-
-#  - type: portfolio.html
-#    # this section has always ID 'portfolio'
-#    #section_id: portfolio
-#    #background_style: bg-dark
-#    projects:
-#      - title: Project 1
-#        text: This is a very short project description.
-#        # the images are located in:
-#        # img/portfolio/fullsize
-#        # img/portfolio/thumbnails
-#        icon: 1.jpg
-#        url: '#'
-#      - title: Project 2
-#        text: This is a very short project description.
-#        icon: 2.jpg
-#        url: '#'
-#      - title: Project 3
-#        text: This is a very short project description.
-#        icon: 3.jpg
-#        url: '#'
-
-#  - type: aside.html
-#    section_id: aside
-#    title: Free Download at Start Bootstrap!
-#    actions:
-#      - title: Download Now!
-#        url: https://startbootstrap.com/themes/creative/
-#        class: btn-light
-        
-        
 ---
