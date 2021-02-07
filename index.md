@@ -105,6 +105,7 @@ sections:
     groups:
       - text: >
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Grantees share their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
+          max-width: 240px
         projects:
           - title:
             text: Explore grantee reflections on the Foundation’s National Character Initiative.
@@ -112,6 +113,7 @@ sections:
             url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
       - text: >
           I’ve contributed to several publications in the social-emotional learning and youth development fields.
+          max-width: 960px
         projects:
           - title: 
             text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
