@@ -1287,8 +1287,10 @@ pre code {
   }
 
    .col-lg-192 {
-    flex: 0 0 192px;
-    max-width: 192px;
+    flex: 0 0 240px;
+    max-width: 240px;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
   }
   
   .col-lg-3 {
