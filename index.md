@@ -69,13 +69,13 @@ sections:
       - text: >
          I spent the last seven years in philanthropy leading a national youth development strategy as part of the [S.D. Bechtel, Jr. Foundation](http://sdbjrfoundation.org/)'s spend-down. Through that work, the importance of building  organizational capacity, making data-informed decisions, and addressing organizational and field-wide inequities became clear, especially in helping organizations navigate uncertainties. Before that, I led nonprofit initiatives focused on creating equitable learning environments for young people through youth development and career pathway programs.
       - text: >
-     I continue to do this work as a Board member of [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/). 
+        I continue to do this work as a Board member of [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/). 
       - text: >
-I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
+        I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
-Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
+        Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
       - text: >
-       Read my full bio here.
+        Read my full bio here.
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
@@ -103,30 +103,12 @@ Partner with me to uncover strategic connections, partnerships, and opportunitie
         url: '#contacts'
     text: >
       For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Grantees share their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
-    projects1:
+    projects:
       - title:
         text: Explore grantee reflections on the Foundation’s National Character Initiative.
         icon: AIR1.png
         url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
-    text: >
-     I’ve contributed to several publications in the social-emotional learning and youth development fields.
-    projects2:
-      - title: 
-        text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
-        icon: MeasureUseImprove1.png
-        url: 'https://www.infoagepub.com/products/Measure-Use-Improve'
-      - title: 
-        text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
-        icon: Interview.png
-        url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
-      - title: 
-        text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
-        icon: RisingTide.png
-        url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
-      - title: 
-        text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
-        icon: SEL-OOS.png
-        url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
+
   - type: contact.html
     section_id: contacts 
     title: Get In Touch
