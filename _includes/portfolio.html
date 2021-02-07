@@ -13,7 +13,10 @@
    </div>
     </div>
   <div id="portfolio" class="{{ section.background_style }}">
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0" {% if group.width %}
+      style="
+    max-width: {group.width}px;"
+       {%endif%}>
     <div class="row no-gutters">
       {% for proj in group.projects %}
       <div class="col-lg-192 col-sm-6">
