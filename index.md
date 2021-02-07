@@ -5,7 +5,7 @@ header:
   title: Rebecca Goldberg Consulting
   image: assets/img/logo3.png
   text: >
-    Partnering with foundations and nonprofits to remove barriers and create equitable learning environments so that all young people thrive.
+    Partnering with foundations and nonprofits to create the conditions and equitable learning environments young people need to thrive.
   action: # action button is optional
     label: Find Out More
     url: '#letsdothis'
@@ -16,7 +16,7 @@ sections:
     section_id: letsdothis
     background_style: bg-primary
     title: Let's Do This
-    text: I work with clients to connect existing but disparate strategies, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
+    text: I work with clients to connect strategies and ideas, identify new opportunities, develop high impact partnerships, and advise on grantmaking and grantseeking approaches.
     actions:
       - title: Get Started!
         url: '#askmeabout'
@@ -55,9 +55,6 @@ sections:
       - title: Whole child education and policy
         #text: 
         icon: fa-child
-      - title: Organizational development
-        #text: 
-        icon: fa-sitemap text-info
       - title: Workforce development & career pathways
         #text: 
         icon: fa-map
@@ -68,15 +65,17 @@ sections:
     title: About Me
     paragraphs:
       - text: >
-         As a Senior Program Officer at the [S.D. Bechtel, Jr. Foundation](http://sdbjrfoundation.org/), I led a $130M [National Character Initiative](https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective) as part of the Foundation’s spend-down strategy which concluded in December 2020. The initiative focused on supporting national youth development organizations and California’s publicly-funded after-school system with quality improvement; implementing evidence-based character development and social-emotional learning practices; addressing organizational inequities by confronting structural racism, cultural appropriation, and the need for creating pathways to leadership for staff of color; organizational capacity building; and growth. Collectively, the initiative’s grantees served approximately half the school-age population in the country.
+      I am passionate about creating opportunities for young people to lead and thrive. To do this, we must dismantle barriers to their success including addressing structural inequities that exist in our educational and nonprofit sectors. 
       - text: >
-         While at the Foundation, I served on the Steering Committee of [Grantmakers for Thriving Youth](https://thrivingyouth.org/) and chaired its Out-of-School Time Work Group. I also helped launched Grantmakers for Education’s Out-of-School-Time Impact Group. 
+         I spent the last seven years in philanthropy leading a national youth development strategy as part of the [S.D. Bechtel, Jr. Foundation](http://sdbjrfoundation.org/)'s spend-down. Through that work, the importance of building  organizational capacity, making data-informed decisions, and addressing organizational and field-wide inequities became clear, especially in helping organizations navigate uncertainties. Before that, I led nonprofit initiatives focused on creating equitable learning environments for young people through youth development and career pathway programs.
       - text: >
-         Prior to the Foundation, my work focused on youth development and workforce development. At the [California School-Age Consortium](https://www.calsac.org/), a statewide organization that supports after-school programs with training and leadership development, I led workforce initiatives to build the pipeline and preparation for after-school staff. At a community-based organization in Los Angeles, I led career & workforce development initiatives spearheading new program development, employer engagement, and career pathways into energy/pharmaceuticals, entertainment, and teaching. In this role, I led the statewide scaling of the California Teacher Pathway from Los Angeles to 10 community college/California State University partnerships throughout the state.
+     I continue to do this work as a Board member of [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/). 
       - text: >
-         I believe in board service and am a committed board member for [Playworks Northern California](https://www.playworks.org/northern-california/), [Forum for Youth Investment](https://forumfyi.org/), and [MENTOR California](https://www.mentorcaliforniayouth.org/).
+I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
-         In my free time, you’ll find me cuddling with my cat Madison, playing with my son Cooper, reading thriller crime novels, cooking, going for walks, or bingeing trashy and not so trashy TV.        
+Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
+      - text: >
+       Read my full bio here.
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
@@ -103,16 +102,16 @@ sections:
       - title: Reach out
         url: '#contacts'
     text: >
-      I've contributed to several publications in the social-emotional learning and youth development fields.
+      For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Grantees share their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
     projects:
       - title:
         text: Explore grantee reflections on the Foundation’s National Character Initiative.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
         icon: AIR1.png
         url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
-      - title: 
+      text: >
+     I’ve contributed to several publications in the social-emotional learning and youth development fields.
+      projects:
+  - title: 
         text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
         icon: MeasureUseImprove1.png
         url: 'https://www.infoagepub.com/products/Measure-Use-Improve'
