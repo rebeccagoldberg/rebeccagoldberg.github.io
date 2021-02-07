@@ -74,8 +74,6 @@ sections:
           I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
           Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
-      - text: >
-          Read my full bio here.
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
