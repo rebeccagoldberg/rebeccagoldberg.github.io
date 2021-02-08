@@ -102,7 +102,7 @@ sections:
         url: '#contacts'
     groups:
       - text: >
-          For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Grantees share their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
+          For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
         width: 240px
         projects:
           - title:
