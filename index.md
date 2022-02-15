@@ -120,6 +120,10 @@ sections:
             text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
             icon: Interview.png
             url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
+      - text: 
+          For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
+        width: 960px
+        projects:
           - title: 
             text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
             icon: RisingTide.png
