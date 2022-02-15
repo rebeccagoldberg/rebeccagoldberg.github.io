@@ -74,6 +74,8 @@ sections:
           I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
           Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
+      - text: >
+          Past and current clients include: America's Promise Alliance, American Institutes for Research, Forum for Youth Investment, Grantmakers for Education, National Afterschool Association, Project Evident, United Way of Fresno & Madera Counties, Wallace Foundation, and Wyman Center.
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
@@ -110,9 +112,13 @@ sections:
             icon: AIR1.png
             url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
       - text: >
-          I’ve contributed to several publications in the social-emotional learning and youth development fields.
+          I’ve contributed to several publications in the philanthropy, social-emotional learning, and youth development fields.
         width: 960px
         projects:
+          - title: 
+            text: How to Encourage Sustainable Change: A Reflection on How Philanthropy Can Partner With Grantees to Build Organizational Capacity.
+            icon: MeasureUseImprove1.png
+            url: 'https://scholarworks.gvsu.edu/tfr/vol13/iss2/11/'
           - title: 
             text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
             icon: MeasureUseImprove1.png
@@ -121,6 +127,7 @@ sections:
             text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
             icon: Interview.png
             url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
+       - text: >
           - title: 
             text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
             icon: RisingTide.png
