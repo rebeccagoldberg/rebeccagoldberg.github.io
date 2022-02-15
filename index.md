@@ -73,9 +73,7 @@ sections:
       - text: >
           I believe we can do our best work through collaboration, trust, and strong relationships. This is true whether working directly with young people, with schools and nonprofits, or with philanthropy. 
       - text: >
-          Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. 
-      - text: >
-          Past and current clients include: America's Promise Alliance, American Institutes for Research, Forum for Youth Investment, Grantmakers for Education, National Afterschool Association, Project Evident, United Way of Fresno & Madera Counties, Wallace Foundation, and Wyman Center.
+          Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work. Past and current clients include: America's Promise Alliance, American Institutes for Research, Forum for Youth Investment, Grantmakers for Education, National Afterschool Association, Project Evident, United Way of Fresno & Madera Counties, Wallace Foundation, and Wyman Center.         
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
@@ -107,18 +105,14 @@ sections:
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
         width: 240px
         projects:
-          - title: 
-            text: Explore grantee reflections on the Foundation's National Character Initiative.
+          - title:
+            text: Explore grantee reflections on the Foundation’s National Character Initiative.
             icon: AIR1.png
             url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
       - text: >
-          I’ve contributed to several publications in the philanthropy, social-emotional learning, and youth development fields.
+          I’ve contributed to several publications in the social-emotional learning and youth development fields.
         width: 960px
         projects:
-          - title: 
-            text: How to Encourage Sustainable Change: A Reflection on How Philanthropy Can Partner With Grantees to Build Organizational Capacity.
-            icon: MeasureUseImprove1.png
-            url: 'https://scholarworks.gvsu.edu/tfr/vol13/iss2/11/'
           - title: 
             text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
             icon: MeasureUseImprove1.png
@@ -135,7 +129,6 @@ sections:
             text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
             icon: SEL-OOS.png
             url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
-
 
   - type: contact.html
     section_id: contacts 
