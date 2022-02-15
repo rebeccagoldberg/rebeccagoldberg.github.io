@@ -105,7 +105,7 @@ sections:
     groups:
       - text: >
           I’ve contributed to several publications in the philanthropy, social-emotional learning, and youth development fields
-        width: 960px
+        width: 720px
         projects:
           - title: 
             text: >
@@ -134,7 +134,7 @@ sections:
             url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
       - text: >
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
-        width: 240px
+        width: 480px
         projects:
           - title:
             text: Explore grantee reflections on the Foundation’s National Character Initiative.
