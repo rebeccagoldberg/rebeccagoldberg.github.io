@@ -65,7 +65,7 @@ sections:
     title: About Me
     paragraphs:
       - text: >
-            I am passionate about creating opportunities for young people to lead and thrive. To do this, we must dismantle barriers to their success including addressing structural inequities that exist in our educational and nonprofit sectors. 
+          I am passionate about creating opportunities for young people to lead and thrive. To do this, we must dismantle barriers to their success including addressing structural inequities that exist in our educational and nonprofit sectors. 
       - text: >
           I spent the last seven years in philanthropy leading a national youth development strategy as part of the [S.D. Bechtel, Jr. Foundation's](http://sdbjrfoundation.org/) spend-down. Through that work, the importance of building  organizational capacity, making data-informed decisions, and addressing organizational and field-wide inequities became clear, especially in helping organizations navigate uncertainties. Before that, I led nonprofit initiatives focused on creating equitable learning environments for young people through youth development and career pathway programs.
       - text: >
@@ -107,32 +107,32 @@ sections:
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
         width: 240px
         projects:
-            - title:
-              text: Explore grantee reflections on the Foundation’s National Character Initiative.
-              icon: AIR1.png
-              url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
+          - title: 
+            text: Explore grantee reflections on the Foundation's National Character Initiative.
+            icon: AIR1.png
+            url: 'https://www.air.org/resource/s-d-bechtel-jr-foundation-national-character-initiative-retrospective'
       - text: >
           I’ve contributed to several publications in the philanthropy, social-emotional learning, and youth development fields.
         width: 960px
         projects:
-            - title: 
-              text: How to Encourage Sustainable Change: A Reflection on How Philanthropy Can Partner With Grantees to Build Organizational Capacity.
-              icon: MeasureUseImprove1.png
-              url: 'https://scholarworks.gvsu.edu/tfr/vol13/iss2/11/'
-            - title: 
-              text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
-              icon: MeasureUseImprove1.png
-              url: 'https://www.infoagepub.com/products/Measure-Use-Improve'
-            - title: 
-              text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
-              icon: Interview.png
-              url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
-            - title: 
-              text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
-              icon: RisingTide.png
-              url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
-            - title: 
-              text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
+          - title: 
+            text: How to Encourage Sustainable Change: A Reflection on How Philanthropy Can Partner With Grantees to Build Organizational Capacity.
+            icon: MeasureUseImprove1.png
+            url: 'https://scholarworks.gvsu.edu/tfr/vol13/iss2/11/'
+          - title: 
+            text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
+            icon: MeasureUseImprove1.png
+            url: 'https://www.infoagepub.com/products/Measure-Use-Improve'
+          - title: 
+            text: Read an interview with two senior program officers about the importance of supporting the youth development workforce
+            icon: Interview.png
+            url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
+          - title: 
+            text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
+            icon: RisingTide.png
+            url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-YWP-09'
+          - title: 
+            text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
             icon: SEL-OOS.png
             url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
 
