@@ -121,7 +121,7 @@ sections:
             icon: Interview.png
             url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
       - text:
-        width: 480px
+        width: 240px
         projects:
           - title: 
             text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
