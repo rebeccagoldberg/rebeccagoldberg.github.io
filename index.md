@@ -110,7 +110,7 @@ sections:
           - title: 
             text: >
               How to Encourage Sustainable Change: A Reflection on How Philanthropy Can Partner With Grantees to Build Organizational Capacity
-            icon: MeasureUseImprove1.png
+            icon: hte1.png
             url: 'https://doi.org/10.9707/1944-5660.1567'
           - title: 
             text: Discover the role evaluation can play in supporting continuous improvement in out-of-school time programs.
