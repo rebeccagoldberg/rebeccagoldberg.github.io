@@ -58,7 +58,7 @@ sections:
         icon: fa-child
       - title: Workforce development & career pathways
         #text: 
-        icon: fa-map
+        icon: fa-map text-info
  
   - type: members.html
     section_id: aboutme
