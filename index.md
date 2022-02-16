@@ -75,7 +75,7 @@ sections:
       - text: >
           Partner with me to uncover strategic connections, partnerships, and opportunities for impact in your work.
       - text: >
-          Past and current clients include: America's Promise Alliance, American Institutes for Research, Forum for Youth Investment, Grantmakers for Education, National Afterschool Association, Project Evident, United Way of Fresno & Madera Counties, Wallace Foundation, and Wyman Center.         
+          Past and current clients include: [America's Promise Alliance](https://www.americaspromise.org/), [American Institutes for Research](https://www.air.org/), [Forum for Youth Investment](https://forumfyi.org/), [Grantmakers for Education](https://www.edfunders.org/), [National Afterschool Association](https://naaweb.org/), [Project Evident](https://www.projectevident.org/), [United Way of Fresno & Madera Counties](https://www.unitedway.org/local/united-states/california/united-way-fresno-and-madera-counties), [Wallace Foundation](https://www.wallacefoundation.org/), and [Wyman Center](https://wymancenter.org/).         
     background_style: bg-info text-white
     membertitle: Rebecca Goldberg
     memberimage: assets/img/members/Goldberg_headshot.jpg
