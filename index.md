@@ -121,7 +121,7 @@ sections:
             icon: Interview.png
             url: 'http://jyd.pitt.edu/ojs/jyd/article/view/2020-15-1-SIA-11'
       - text:
-        width: 240px
+        width: 480px
         projects:
           - title: 
             text: Discover how a cross-sector, statewide collaboration is helping prepare youth-serving staff to promote social and emotional development.
@@ -133,7 +133,7 @@ sections:
             url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
       - text: >
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
-        width: 480px
+        width: 240px
         projects:
           - title:
             text: Explore grantee reflections on the Foundation’s National Character Initiative.
