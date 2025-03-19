@@ -130,7 +130,7 @@ sections:
             url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'
           - title: 
             text:  A chapter sharing insights on the youth development workforce and their professional development needs.
-            icon: BuiltforMore.gif
+            icon: BuiltForMore.jpg
             url: 'https://www.infoagepub.com/products/Built-for-More'       
       - text: >
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
