@@ -31,7 +31,7 @@ sections:
       - title: Why me?
         url: '#aboutme'
     services:
-      - title: Grantmaking strategy including racial equity grantmaking
+      - title: Equitable Grantmaking
         #text: a
         icon: fa-book text-info
       - title: Trust-based philanthropy
@@ -50,7 +50,7 @@ sections:
       - title: Youth development
         #text: a
         icon: fa-paint-brush
-      - title: Social-emotional learning
+      - title: Character development & SEL
         #text: 
         icon: fa-heart text-info
       - title: Whole child education and policy
@@ -127,7 +127,11 @@ sections:
           - title: 
             text: A chapter on three foundations' approach to funding social-emotional learning in Social and Emotional Learning in Out-of-School Time by Information Age Publishing.
             icon: SEL-OOS.png
-            url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'      
+            url: 'https://www.infoagepub.com/products/Social-and-Emotional-Learning-in-Out-Of-School-Time'
+          - title: 
+            text:  A chapter sharing insights on the youth development workforce and their professional development needs.
+            icon: BuiltforMore.gif
+            url: 'https://www.infoagepub.com/products/Built-for-More'       
       - text: >
           For insights and learnings from the S.D. Bechtel, Jr. Foundation's National Character Initiative, read this retrospective report from American Institutes for Research. Our grantee partners shared their thoughts on which types of grantaking supports were most impactful including grantee convenings and communities of practice.
         width: 240px
