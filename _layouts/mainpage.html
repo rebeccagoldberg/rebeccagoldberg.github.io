@@ -295,6 +295,9 @@
     position: relative;
     overflow: hidden;
     background-image: url("assets/img/members/Goldberg_headshot.jpg");
+      background-size: cover;       /* stretches/crops to fill the square */
+  background-repeat: no-repeat; /* stops the tiling */
+  background-position: center;
     box-shadow: 0 24px 60px -20px color-mix(in oklab, var(--ink) 35%, transparent);
   }
   .about-portrait::after {
