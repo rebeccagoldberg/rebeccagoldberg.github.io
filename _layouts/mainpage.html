@@ -776,18 +776,22 @@
         <h3>Send a message</h3>
         <p class="intro">A quick note about your project or question.</p>
 
+        <form action="https://formcarry.com/s/4T13S9tj6m" method="POST" accept-charset="UTF-8" novalidate="novalidate">
         <label for="cf-name">Your name</label>
-        <input id="cf-name" type="text" placeholder="Jane Doe" required>
-
+        <input class="form-control" name="fullName" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
         <label for="cf-email">Email</label>
-        <input id="cf-email" type="email" placeholder="jane@foundation.org" required>
-
+        <input class="form-control" name="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+        <label for="cf-msg">Phone Number</label>
+        <input class="form-control" name="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
         <label for="cf-msg">Message</label>
-        <textarea id="cf-msg" placeholder="A little about the work and what you're looking for…" required></textarea>
-
-        <button type="submit" class="submit">Send message →</button>
-        <div class="sent" id="cf-sent">✓ Sent — I'll be in touch soon.</div>
-      </form>
+        <textarea class="form-control" name="message" placeholder="A little about the work and what you're looking for…" required="required" data-validation-required-message="Please enter a message." style="height: 150px;"></textarea>
+        <input type="hidden" name="_gotcha">
+        <div class="clearfix"></div>
+        <div id="success"></div>
+            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-light" type="submit">Send message →</button>
+                    <div class="sent" id="cf-sent">✓ Sent — I'll be in touch soon.</div>
+        </div>
+        </form>
     </div>
   </div>
 </section>
