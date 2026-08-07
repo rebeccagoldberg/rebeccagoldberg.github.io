@@ -843,6 +843,7 @@ Tell me about the work you're doing and where I might fit in.
         <label for="cf-msg">Message</label>
         <textarea class="form-control" name="message" placeholder="A little about the work and what you're looking for…" required="required" data-validation-required-message="Please enter a message." style="height: 150px;"></textarea>
         <input type="hidden" name="_gotcha">
+        <input type="hidden" name="redirect" value="{{ site.url }}?sent=true#contact">
         <div class="clearfix"></div>
         <div id="success"></div>
         <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-light" type="submit">Send message →</button>
@@ -885,14 +886,13 @@ Tell me about the work you're doing and where I might fit in.
     });
   });
 
-  // contact form mock submit
-  var form = document.getElementById("contact-form");
+  // show confirmation after Formcarry redirects back with ?sent=true
   var sent = document.getElementById("cf-sent");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
+  if (/[?&]sent=true\b/.test(window.location.search)) {
     sent.classList.add("show");
-    setTimeout(function () { sent.classList.remove("show"); }, 4000);
-  });
+    var cleanUrl = window.location.pathname + window.location.hash;
+    window.history.replaceState({}, document.title, cleanUrl);
+  }
 </script>
 
 </body>
