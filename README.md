@@ -12,8 +12,16 @@ Source for [rebeccagoldberg.org](https://rebeccagoldberg.org), a Jekyll site bui
 ## Development
 
 If you want to use this template, or enhance it, you can use Docker.
-Just run `./build-in-docker.sh` and then point your browser to http://localhost:4000/.
+Just run `./build-in-docker.sh` and then point your browser to <http://localhost:4000/>.
 
-Note: Developing for GitHub Pages is tricky. You should always rely on
-[safe plugins](https://pages.github.com/versions/) because any other, that's not
-in the list will simply not run.
+Or locally, with Ruby installed: `bundle install && bundle exec jekyll serve`.
+
+## Deployment
+
+The site deploys via GitHub Actions (`.github/workflows/pages.yml`) on every
+push to `master` — not the legacy "Deploy from a branch" Jekyll build. This
+means the `Gemfile` can use current, non-vulnerable gem versions instead of
+being pinned to whatever the `github-pages` gem bundles.
+
+Repo setting required (one-time): **Settings → Pages → Build and deployment
+→ Source → GitHub Actions**.
