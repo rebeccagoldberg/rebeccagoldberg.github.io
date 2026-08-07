@@ -222,10 +222,10 @@
     cursor: pointer;
     border: 1px solid transparent;
   }
-  .btn-primary { background: var(--ink); color: var(--bg); }
+  .btn-primary { background: var(--ink-soft); color: var(--bg); }
   .btn-primary:hover { transform: translateY(-1px); color: var(--bg); }
   .btn-ghost { border-color: var(--rule); color: var(--ink); }
-  .btn-ghost:hover { background: color-mix(in oklab, var(--ink) 6%, transparent); }
+  .btn-ghost:hover { background: color-mix(in oklab, var(--ink-soft) 6%, transparent); }
   .btn-arrow {
     width: 18px; height: 18px;
     display: inline-block;
@@ -646,10 +646,7 @@
     <p class="hero-lede">
 I partner with foundations and nonprofits to connect ideas and strategies, develop high-impact partnerships, and advise on approaches to investing in young people’s well-being.
     </p>
-    <div class="hero-ctas">
-      <a class="btn btn-primary" href="#expertise">See the work <span class="btn-arrow"></span></a>
-      <a class="btn btn-ghost" href="#contact">Start a conversation</a>
-    </div>
+
 
     <div class="hero-meta">
       <div class="item"><div class="k">Based in</div><div class="v">San Francisco Bay Area, California</div></div>
@@ -667,7 +664,7 @@ I partner with foundations and nonprofits to connect ideas and strategies, devel
 
     <div class="expertise-grid reveal">
       <div class="expertise-cell" style="--accent:var(--coral)">
-        <div><div class="num">01</div><h3>Grantmaking Strategy</h3><p>Designing equitable funding strategies that share power with grantees, address structural inequities, and address field and organizational needs.</p></div>
+        <div><div class="num">01</div><h3>Grantmaking Strategy</h3><p>Designing equitable funding strategies that share power with grantees, address structural inequities, and respond to field and organizational needs.</p></div>
         <div class="swatch" aria-hidden="true"></div>
       </div>
       <div class="expertise-cell" style="--accent:var(--sage)">
@@ -682,11 +679,11 @@ I partner with foundations and nonprofits to connect ideas and strategies, devel
         <div><div class="num">04</div><h3>Youth Development</h3><p>Building field capacity to create programs, policies, and systems that center young people and support their well-being.</p></div>
         <div class="swatch" aria-hidden="true"></div>
       </div>
-      <div class="expertise-cell" style="--accent:var(--sage)">
+      <div class="expertise-cell" style="--accent:var(--coral)">
         <div><div class="num">05</div><h3>Communities of Practice</h3><p>Designing and fostering spaces where funders and/or field leaders learn together and sharpen their craft.</p></div>
         <div class="swatch" aria-hidden="true"></div>
       </div>
-      <div class="expertise-cell" style="--accent:var(--coral)">
+      <div class="expertise-cell" style="--accent:var(--sage)">
         <div><div class="num">06</div><h3>Network Weaving</h3><p>Connecting people and organizations for strategic impact, deepening partnerships, and fostering more collaborative communities.</p></div>
         <div class="swatch" aria-hidden="true"></div>
       </div>
@@ -719,7 +716,7 @@ I'm passionate about creating opportunities for young people to lead and thrive 
         </p>
 
         <div class="boards">
-          <div class="k">Currently on the board of</div>
+          <div class="k">Currently on the advisory boards of</div>
           <div class="board-row">
             <a class="board-chip" href="https://www.playworks.org/northern-california/" target="_blank" rel="noreferrer">Playworks Northern California ↗</a>
             <a class="board-chip" href="https://www.mentorcaliforniayouth.org/" target="_blank" rel="noreferrer">MENTOR California ↗</a>
@@ -734,8 +731,8 @@ I'm passionate about creating opportunities for young people to lead and thrive 
 
 <section id="clients" class="tint-warm" data-screen-label="03 Clients">
   <div class="container">
-    <div class="section-label reveal"><span class="num">03 —</span><span>Past &amp; current clients</span></div>
-    <h2 class="section-title reveal">Past &amp; current partners.</h2>
+    <div class="section-label reveal"><span class="num">03 —</span><span>Clients</span></div>
+    <h2 class="section-title reveal">Past &amp; current clients.</h2>
     <p class="section-intro reveal">
       A selection of foundations, intermediaries, and field-building organizations
       I've had the privilege of working with.
@@ -750,9 +747,8 @@ I'm passionate about creating opportunities for young people to lead and thrive 
         <a class="client" href="https://fundirl.org/" target="_blank" rel="noreferrer"><span>Fund IRL</span><span class="arrow">→</span></a>
         <a class="client" href="https://www.edfunders.org/" target="_blank" rel="noreferrer"><span>Grantmakers for Education</span><span class="arrow">→</span></a>
         <a class="client" href="https://www.hellmanfoundation.org/" target="_blank" rel="noreferrer"><span>Hellman Foundation</span><span class="arrow">→</span></a>
-        <a class="client" href=" https://www.isry.org/" target="_blank" rel="noreferrer"><span>Institute for the Study of Resilience in Youth</span><span class="arrow">→</span></a>
+        <a class="client" href="https://www.isry.org/" target="_blank" rel="noreferrer"><span>Institute for the Study of Resilience in Youth</span><span class="arrow">→</span></a>
         <a class="client" href="https://lillyendowment.org/" target="_blank" rel="noreferrer"><span>Lilly Endowment</span><span class="arrow">→</span></a>
-        <a class="client" href="https://naaweb.org/" target="_blank" rel="noreferrer"><span>National Afterschool Association</span><span class="arrow">→</span></a>
         <a class="client" href="https://www.pearinc.org/" target="_blank" rel="noreferrer"><span>Partnerships in Education and Resilience</span><span class="arrow">→</span></a>
         <a class="client" href="https://playworks.org/" target="_blank" rel="noreferrer"><span>Playworks</span><span class="arrow">→</span></a>
         <a class="client" href="https://www.projectevident.org/" target="_blank" rel="noreferrer"><span>Project Evident</span><span class="arrow">→</span></a>
@@ -835,7 +831,7 @@ Tell me about the work you're doing and where I might fit in.
         <p class="intro">A quick note about your project or question.</p>
 
         <label for="cf-name">Your name</label>
-        <input class="form-control" name="fullName" type="text" placeholder="Jane Doe" required="required" data-validation-required-message="Please enter your name.">
+        <input class="form-control" name="fullName" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
         <label for="cf-email">Email</label>
         <input class="form-control" name="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
         <label for="cf-msg">Phone Number</label>
