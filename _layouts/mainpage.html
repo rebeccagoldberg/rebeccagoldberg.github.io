@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Rebecca Goldberg Consulting</title>
+{% seo %}
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,10 +50,9 @@
   .container {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 56px;
+    padding: 0 clamp(16px, 5.5vw, 56px);
   }
   @media (max-width: 720px) {
-    .container { padding: 0 24px; }
     body { font-size: 17px; }
   }
 
@@ -67,21 +66,26 @@
   }
   .nav-inner {
     display: flex; align-items: center; justify-content: space-between;
-    padding: 18px 0;
+    gap: 12px;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
   .brand {
     font-family: var(--serif);
-    font-size: 22px;
+    font-size: clamp(16px, 4.2vw, 22px);
     font-weight: 500;
     letter-spacing: -0.01em;
-    display: flex; align-items: center; gap: 12px;
+    display: flex; align-items: center; gap: clamp(6px, 2vw, 12px);
     text-decoration: none;
+    white-space: nowrap;
+    min-width: 0;
   }
-  .brand-dot {
-    width: 14px; height: 14px; border-radius: 999px;
-    background: var(--coral);
+  .brand-logo {
+    width: clamp(24px, 6vw, 32px);
+    height: clamp(24px, 6vw, 32px);
+    object-fit: contain;
     display: inline-block;
-    box-shadow: 0 0 0 3px color-mix(in oklab, var(--coral) 22%, transparent);
+    flex-shrink: 0;
   }
   .nav-links {
     display: flex; gap: 28px;
@@ -97,18 +101,77 @@
   .nav-links a:hover { color: var(--ink); }
   .nav-cta {
     font-family: var(--sans);
-    font-size: 14px;
+    font-size: clamp(12px, 3vw, 14px);
     font-weight: 500;
-    padding: 9px 16px;
+    padding: clamp(7px, 2vw, 9px) clamp(12px, 3vw, 16px);
     border-radius: 999px;
     background: var(--ink);
     color: var(--bg);
     text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
     transition: transform 0.15s, background 0.15s;
   }
   .nav-cta:hover { transform: translateY(-1px); color: var(--bg); }
+  .nav-toggle {
+    display: none;
+    flex-shrink: 0;
+    width: 36px; height: 36px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-toggle .bar {
+    display: block;
+    width: 20px; height: 2px;
+    background: var(--ink);
+    position: relative;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .nav-toggle .bar::before, .nav-toggle .bar::after {
+    content: "";
+    position: absolute; left: 0;
+    width: 20px; height: 2px;
+    background: var(--ink);
+    transition: transform 0.2s, top 0.2s, opacity 0.2s;
+  }
+  .nav-toggle .bar::before { top: -6px; }
+  .nav-toggle .bar::after { top: 6px; }
+  .nav-toggle.open .bar { background: transparent; }
+  .nav-toggle.open .bar::before { top: 0; transform: rotate(45deg); }
+  .nav-toggle.open .bar::after { top: 0; transform: rotate(-45deg); }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+    border-top: 1px solid transparent;
+  }
+  .mobile-menu.open {
+    max-height: 320px;
+    border-top-color: color-mix(in oklab, var(--rule) 60%, transparent);
+  }
+  .mobile-menu a {
+    padding: 16px 0;
+    font-family: var(--sans);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--ink);
+    border-bottom: 1px solid color-mix(in oklab, var(--rule) 60%, transparent);
+  }
+  .mobile-menu a.nav-cta { text-align: center; margin: 16px 0; border-bottom: none; }
+
   @media (max-width: 720px) {
     .nav-links { display: none; }
+    .nav-cta { display: none; }
+    .nav-toggle { display: flex; }
+    .mobile-menu { display: flex; }
   }
 
   /* ====== HERO ====== */
@@ -136,7 +199,7 @@
   }
   .hero h1 em {
     font-style: italic;
-    color: color-mix(in oklab, var(--coral) 70%, var(--ink));
+    color: var(--coral);
   }
   .hero-lede {
     font-family: var(--serif);
@@ -294,7 +357,7 @@
       color-mix(in oklab, var(--sage) 50%, var(--bg)) 100%);
     position: relative;
     overflow: hidden;
-    background-image: url("assets/img/members/Goldberg_headshot3.jpg");
+    background-image: url("assets/img/members/Goldberg_headshot3.webp");
       background-size: cover;       /* stretches/crops to fill the square */
   background-repeat: no-repeat; /* stops the tiling */
   background-position: center;
@@ -450,6 +513,7 @@
   .contact-list { display: flex; flex-direction: column; border-top: 1px solid var(--rule); }
   .contact-list a {
     display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
     padding: 22px 0;
     border-bottom: 1px solid var(--rule);
     font-family: var(--serif);
@@ -458,6 +522,7 @@
     color: var(--ink);
     transition: color 0.15s, padding 0.2s;
   }
+  .contact-list a > span:first-child { min-width: 0; overflow-wrap: anywhere; }
   .contact-list a:hover { color: var(--coral); padding-left: 8px; }
   .contact-list .k {
     font-family: var(--mono); font-size: 11px;
@@ -466,7 +531,7 @@
     margin-right: 16px;
   }
   .contact-form {
-    background: var(--fg);
+    background: var(--coral);
     color: var(--bg);
     border-radius: 6px;
     padding: 40px;
@@ -497,7 +562,7 @@
     resize: vertical;
   }
   .contact-form input::placeholder, .contact-form textarea::placeholder { color: color-mix(in oklab, var(--ink) 45%, transparent); }
-  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--fg); }
+  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--bg); }
   .contact-form textarea { min-height: 90px; }
   .contact-form .submit {
     margin-top: 28px;
@@ -544,7 +609,7 @@
 <nav class="nav">
   <div class="container nav-inner">
     <a href="#top" class="brand">
-      <span class="brand-dot"></span>
+      <img class="brand-logo" src="assets/img/logo3.png" alt="" />
       Rebecca Goldberg
     </a>
     <div class="nav-links">
@@ -554,6 +619,18 @@
       <a href="#clients">Clients</a>
     </div>
     <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="bar"></span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#expertise">Work</a>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
   </div>
 </nav>
 
@@ -755,11 +832,10 @@ Tell me about the work you're doing and where I might fit in.
         </div>
       </div>
 
-      <form class="contact-form reveal" id="contact-form">
+      <form class="contact-form reveal" id="contact-form" action="https://formcarry.com/s/4T13S9tj6m" method="POST" accept-charset="UTF-8" novalidate="novalidate">
         <h3>Send a message</h3>
         <p class="intro">A quick note about your project or question.</p>
 
-        <form action="https://formcarry.com/s/4T13S9tj6m" method="POST" accept-charset="UTF-8" novalidate="novalidate">
         <label for="cf-name">Your name</label>
         <input class="form-control" name="fullName" type="text" placeholder="Jane Doe" required="required" data-validation-required-message="Please enter your name.">
         <label for="cf-email">Email</label>
@@ -771,10 +847,9 @@ Tell me about the work you're doing and where I might fit in.
         <input type="hidden" name="_gotcha">
         <div class="clearfix"></div>
         <div id="success"></div>
-            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-light" type="submit">Send message →</button>
-                    <div class="sent" id="cf-sent">✓ Sent — I'll be in touch soon.</div>
-        </div>
-        </form>
+        <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-light" type="submit">Send message →</button>
+        <div class="sent" id="cf-sent">✓ Sent — I'll be in touch soon.</div>
+      </form>
     </div>
   </div>
 </section>
@@ -795,6 +870,22 @@ Tell me about the work you're doing and where I might fit in.
     });
   }, { threshold: 0.08 });
   els.forEach(function (el) { io.observe(el); });
+
+  // mobile nav toggle
+  var navToggle = document.getElementById("nav-toggle");
+  var mobileMenu = document.getElementById("mobile-menu");
+  navToggle.addEventListener("click", function () {
+    var isOpen = mobileMenu.classList.toggle("open");
+    navToggle.classList.toggle("open", isOpen);
+    navToggle.setAttribute("aria-expanded", isOpen);
+  });
+  mobileMenu.querySelectorAll("a").forEach(function (a) {
+    a.addEventListener("click", function () {
+      mobileMenu.classList.remove("open");
+      navToggle.classList.remove("open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
 
   // contact form mock submit
   var form = document.getElementById("contact-form");

@@ -1,9 +1,13 @@
 # Site settings
 title: Rebecca Goldberg Consulting
-description: > # this means to ignore newlines until "baseurl:"
+tagline: Youth Development & Philanthropy Consulting
+description: >- # this means to ignore newlines until "baseurl:"
+  Independent consultant partnering with foundations and nonprofits on grantmaking
+  strategy, funder collaboration, and youth development.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://www.rebeccagoldberg.org" # the base hostname & protocol for your site
-author: Copyright &copy; 2021 - Rebecca Goldberg
+url: "https://rebeccagoldberg.org" # the base hostname & protocol for your site (must match CNAME)
+author: Rebecca Goldberg
+logo: /assets/img/logo3.png
 lang: en_US
 
 # Build settings
