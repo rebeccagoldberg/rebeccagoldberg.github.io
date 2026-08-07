@@ -466,14 +466,14 @@
     margin-right: 16px;
   }
   .contact-form {
-    background: var(--ink);
+    background: var(--fg);
     color: var(--bg);
     border-radius: 6px;
     padding: 40px;
     box-shadow: 0 24px 60px -24px color-mix(in oklab, var(--ink) 60%, transparent);
   }
-  .contact-form h3 { font-family: var(--serif); font-weight: 400; font-size: 28px; margin: 0 0 6px; color: var(--bg); }
-  .contact-form p.intro { font-size: 14px; color: color-mix(in oklab, var(--bg) 80%, transparent); margin: 0 0 28px; }
+  .contact-form h3 { font-family: var(--serif); font-weight: 400; font-size: 28px; margin: 0 0 6px; color: var(--ink); }
+  .contact-form p.intro { font-size: 14px; color: color-mix(in oklab, var(--ink) 80%, transparent); margin: 0 0 28px; }
   .contact-form label {
     display: block;
     font-family: var(--mono);
@@ -487,8 +487,8 @@
     width: 100%;
     background: transparent;
     border: none;
-    border-bottom: 1px solid color-mix(in oklab, var(--bg) 40%, transparent);
-    color: var(--bg);
+    border-bottom: 1px solid color-mix(in oklab, var(--ink) 40%, transparent);
+    color: var(--ink);
     font-family: var(--serif);
     font-size: 18px;
     padding: 6px 0 10px;
@@ -496,8 +496,8 @@
     transition: border-color 0.15s;
     resize: vertical;
   }
-  .contact-form input::placeholder, .contact-form textarea::placeholder { color: color-mix(in oklab, var(--bg) 45%, transparent); }
-  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--coral); }
+  .contact-form input::placeholder, .contact-form textarea::placeholder { color: color-mix(in oklab, var(--ink) 45%, transparent); }
+  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--fg); }
   .contact-form textarea { min-height: 90px; }
   .contact-form .submit {
     margin-top: 28px;
@@ -586,11 +586,7 @@ I partner with foundations and nonprofits to connect ideas and strategies, devel
 <section id="expertise" class="tint-cream" data-screen-label="02 Expertise">
   <div class="container">
     <div class="section-label reveal"><span class="num">01 —</span><span>What I do</span></div>
-    <h2 class="section-title reveal">Nine ways I help foundations and nonprofits do their <em>best work.</em></h2>
-    <p class="section-intro reveal">
-      Each engagement is shaped to fit, but most fall into one of these areas. Pick
-      the lens that matches where you are — and we'll go from there.
-    </p>
+    <h2 class="section-title reveal">Six ways I help foundations and nonprofits do their <em>best work.</em></h2>
 
     <div class="expertise-grid reveal">
       <div class="expertise-cell" style="--accent:var(--coral)">
