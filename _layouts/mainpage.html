@@ -430,28 +430,40 @@
 
   /* ====== CLIENTS ====== */
   .clients-wrap { margin-top: 32px; }
-  .clients-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--rule); }
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+  }
   .client {
-    padding: 22px 8px 22px 0;
-    border-bottom: 1px solid var(--rule);
-    font-family: var(--serif);
-    font-size: 22px;
-    line-height: 1.25;
-    color: var(--ink);
+    height: 96px;
+    padding: 18px;
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
     text-decoration: none;
-    display: flex; align-items: center; justify-content: space-between;
-    gap: 16px;
-    transition: padding 0.2s, color 0.15s;
+    transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
   }
-  .client:hover { padding-left: 14px; color: var(--coral); }
-  .client .arrow {
-    opacity: 0; transform: translateX(-6px);
-    transition: opacity 0.2s, transform 0.2s;
-    font-family: var(--sans); font-size: 16px; color: var(--coral);
+  .client:hover {
+    border-color: var(--coral);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px -16px color-mix(in oklab, var(--ink) 40%, transparent);
   }
-  .client:hover .arrow { opacity: 1; transform: translateX(0); }
-  @media (max-width: 900px) { .clients-grid { grid-template-columns: repeat(2, 1fr); } .client { font-size: 19px; } }
-  @media (max-width: 560px) { .clients-grid { grid-template-columns: 1fr; } }
+  .client img {
+    max-width: 100%;
+    max-height: 44px;
+    object-fit: contain;
+    opacity: 0.88;
+    transition: opacity 0.2s;
+  }
+  .client:hover img { opacity: 1; }
+  .client.logo-invert img { filter: invert(1); }
+  @media (max-width: 560px) {
+    .clients-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+    .client { height: 76px; padding: 12px; }
+    .client img { max-height: 34px; }
+  }
 
   /* ====== PUBLICATIONS ====== */
   .pubs-list { display: flex; flex-direction: column; border-top: 1px solid var(--rule); }
@@ -740,22 +752,22 @@ I'm passionate about creating opportunities for young people to lead and thrive 
 
     <div class="clients-wrap reveal">
       <div class="clients-grid">
-        <a class="client" href="https://www.americaspromise.org/" target="_blank" rel="noreferrer"><span>America's Promise Alliance</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.air.org/" target="_blank" rel="noreferrer"><span>American Institutes for Research</span><span class="arrow">→</span></a>
-        <a class="client" href="https://childrensfundingproject.org/" target="_blank" rel="noreferrer"><span>Children's Funding Project</span><span class="arrow">→</span></a>
-        <a class="client" href="https://forumfyi.org/" target="_blank" rel="noreferrer"><span>Forum for Youth Investment</span><span class="arrow">→</span></a>
-        <a class="client" href="https://fundirl.org/" target="_blank" rel="noreferrer"><span>Fund IRL</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.edfunders.org/" target="_blank" rel="noreferrer"><span>Grantmakers for Education</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.hellmanfoundation.org/" target="_blank" rel="noreferrer"><span>Hellman Foundation</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.isry.org/" target="_blank" rel="noreferrer"><span>Institute for the Study of Resilience in Youth</span><span class="arrow">→</span></a>
-        <a class="client" href="https://lillyendowment.org/" target="_blank" rel="noreferrer"><span>Lilly Endowment</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.pearinc.org/" target="_blank" rel="noreferrer"><span>Partnerships in Education and Resilience</span><span class="arrow">→</span></a>
-        <a class="client" href="https://playworks.org/" target="_blank" rel="noreferrer"><span>Playworks</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.projectevident.org/" target="_blank" rel="noreferrer"><span>Project Evident</span><span class="arrow">→</span></a>
-        <a class="client" href="https://agenda4learning.com/" target="_blank" rel="noreferrer"><span>The Learning Agenda</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.uwfm.org/" target="_blank" rel="noreferrer"><span>United Way of Fresno &amp; Madera Counties</span><span class="arrow">→</span></a>
-        <a class="client" href="https://www.wallacefoundation.org/" target="_blank" rel="noreferrer"><span>Wallace Foundation</span><span class="arrow">→</span></a>
-        <a class="client" href="https://wymancenter.org/" target="_blank" rel="noreferrer"><span>Wyman Center</span><span class="arrow">→</span></a>
+        <a class="client" href="https://www.americaspromise.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/americas-promise-alliance.webp" alt="America's Promise Alliance" loading="lazy"></a>
+        <a class="client logo-invert" href="https://www.air.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/american-institutes-for-research.png" alt="American Institutes for Research" loading="lazy"></a>
+        <a class="client" href="https://childrensfundingproject.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/childrens-funding-project.png" alt="Children's Funding Project" loading="lazy"></a>
+        <a class="client" href="https://forumfyi.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/forum-for-youth-investment.png" alt="Forum for Youth Investment" loading="lazy"></a>
+        <a class="client" href="https://fundirl.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/fund-irl.png" alt="Fund IRL" loading="lazy"></a>
+        <a class="client logo-invert" href="https://www.edfunders.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/grantmakers-for-education.svg" alt="Grantmakers for Education" loading="lazy"></a>
+        <a class="client" href="https://www.hellmanfoundation.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/hellman-foundation.png" alt="Hellman Foundation" loading="lazy"></a>
+        <a class="client" href="https://www.isry.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/institute-study-resilience-youth.webp" alt="Institute for the Study of Resilience in Youth" loading="lazy"></a>
+        <a class="client" href="https://lillyendowment.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/lilly-endowment.jpg" alt="Lilly Endowment" loading="lazy"></a>
+        <a class="client" href="https://www.pearinc.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/partnerships-education-resilience.png" alt="Partnerships in Education and Resilience" loading="lazy"></a>
+        <a class="client" href="https://playworks.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/playworks.png" alt="Playworks" loading="lazy"></a>
+        <a class="client" href="https://www.projectevident.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/project-evident.png" alt="Project Evident" loading="lazy"></a>
+        <a class="client" href="https://agenda4learning.com/" target="_blank" rel="noreferrer"><img src="assets/img/clients/the-learning-agenda.png" alt="The Learning Agenda" loading="lazy"></a>
+        <a class="client" href="https://www.uwfm.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/united-way-fresno-madera.png" alt="United Way of Fresno &amp; Madera Counties" loading="lazy"></a>
+        <a class="client" href="https://www.wallacefoundation.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/wallace-foundation.svg" alt="Wallace Foundation" loading="lazy"></a>
+        <a class="client" href="https://wymancenter.org/" target="_blank" rel="noreferrer"><img src="assets/img/clients/wyman-center.png" alt="Wyman Center" loading="lazy"></a>
       </div>
     </div>
   </div>
