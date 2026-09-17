@@ -1,0 +1,15 @@
+<section id="testimonials" data-screen-label="04 Testimonials">
+  <div class="container">
+    <div class="section-label reveal"><span class="num">04 —</span><span>What people say</span></div>
+    <h2 class="section-title reveal">In their <em>words.</em></h2>
+    <div class="testimonials-grid reveal">
+      {% for t in site.data.testimonials %}
+      <div class="testimonial">
+        <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote>{{ t.quote }}</blockquote>
+        <div class="attribution"><strong>{{ t.name }}</strong>{{ t.title }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

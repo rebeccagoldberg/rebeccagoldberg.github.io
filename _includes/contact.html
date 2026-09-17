@@ -1,0 +1,44 @@
+<section id="contact" class="tint-cream" data-screen-label="06 Contact">
+  <div class="container">
+    <div class="section-label reveal"><span class="num">06 —</span><span>Get in touch</span></div>
+
+    <div class="contact-grid">
+      <div class="reveal">
+        <h2 class="contact-title">Ready to <em>partner?</em></h2>
+        <p class="contact-lede">
+          Tell me about the work you’re doing and where I might fit in.
+        </p>
+
+        <div class="contact-list">
+          <a href="{{ site.social.linkedin }}" target="_blank" rel="noreferrer"><span><span class="k">LinkedIn</span>/in/rebeccamgoldberg</span><span>↗</span></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form" action="{{ site.contact_form_action }}" method="POST"
+        accept-charset="UTF-8" novalidate="novalidate">
+        <h3>Send a message</h3>
+        <p class="intro">A quick note about your project or question.</p>
+
+        <label for="cf-name">Your name</label>
+        <input id="cf-name" class="form-control" name="fullName" type="text" placeholder="Your Name" required="required"
+          data-validation-required-message="Please enter your name.">
+        <label for="cf-email">Email</label>
+        <input id="cf-email" class="form-control" name="email" type="email" placeholder="Your Email" required="required"
+          data-validation-required-message="Please enter your email address.">
+        <label for="cf-phone">Phone Number (optional)</label>
+        <input id="cf-phone" class="form-control" name="phone" type="tel" placeholder="Your Phone">
+        <label for="cf-msg">Message</label>
+        <textarea id="cf-msg" class="form-control" name="message"
+          placeholder="A little about the work and what you’re looking for…" required="required"
+          data-validation-required-message="Please enter a message." style="height: 150px;"></textarea>
+        <input type="hidden" name="_gotcha">
+        <input type="hidden" name="redirect" value="{{ site.url }}{{ site.baseurl }}?sent=true#contact">
+        <div class="clearfix"></div>
+        <div id="success"></div>
+        <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-light" type="submit">Send
+          message →</button>
+        <div class="sent" id="cf-sent">✓ Sent — I’ll be in touch soon.</div>
+      </form>
+    </div>
+  </div>
+</section>

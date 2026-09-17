@@ -1,0 +1,42 @@
+<section id="about" data-screen-label="03 About">
+  <div class="container">
+    <div class="section-label reveal"><span class="num">02 —</span><span>About</span></div>
+
+    <div class="about-grid">
+      <div class="about-portrait reveal">
+        <img src="{{ '/assets/img/members/Goldberg_headshot3.webp' | relative_url }}" alt="Rebecca Goldberg" width="640" height="800" loading="lazy" decoding="async" />
+      </div>
+
+      <div class="about-body reveal">
+        <h2 class="section-title" style="margin-bottom:28px">Rebecca Goldberg</h2>
+        <p>
+          I’m passionate about creating opportunities for young people to lead and thrive — which means addressing
+          structural barriers and leveraging existing and untapped opportunities to invest in young people’s
+          well-being.
+        </p>
+        <p>
+          I spent seven years in philanthropy leading a national youth-development strategy as part of the
+          <a href="http://sdbjrfoundation.org/" target="_blank" rel="noreferrer">S.D. Bechtel, Jr. Foundation</a>
+          spend-down. That work surfaced how essential organizational capacity, data-informed decisions, and
+          addressing field-wide inequities are — especially when organizations are navigating uncertainty. I
+          previously led nonprofit initiatives focused on creating equitable learning environments through
+          youth-development and career-pathway programs.
+        </p>
+        <p>
+          I believe the best work happens through collaboration, trust, and strong
+          relationships — whether you’re working directly with young people, with
+          schools and nonprofits, or with philanthropy.
+        </p>
+
+        <div class="boards">
+          <div class="k">Currently on the advisory boards of</div>
+          <div class="board-row">
+            {% for board in site.data.boards %}
+            <a class="board-chip" href="{{ board.href }}" target="_blank" rel="noreferrer">{{ board.name }} ↗</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

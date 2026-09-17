@@ -1,0 +1,50 @@
+- name: America's Promise Alliance
+  href: https://www.americaspromise.org/
+  img: assets/img/clients/americas-promise-alliance.webp
+- name: American Institutes for Research
+  href: https://www.air.org/
+  img: assets/img/clients/american-institutes-for-research.png
+  invert: true
+- name: Children's Funding Project
+  href: https://childrensfundingproject.org/
+  img: assets/img/clients/childrens-funding-project.png
+- name: Forum for Youth Investment
+  href: https://forumfyi.org/
+  img: assets/img/clients/forum-for-youth-investment.png
+- name: Fund IRL
+  href: https://fundirl.org/
+  img: assets/img/clients/fund-irl.png
+- name: Grantmakers for Education
+  href: https://www.edfunders.org/
+  img: assets/img/clients/grantmakers-for-education.svg
+  invert: true
+- name: Hellman Foundation
+  href: https://www.hellmanfoundation.org/
+  img: assets/img/clients/hellman-foundation.png
+- name: Institute for the Study of Resilience in Youth
+  href: https://www.isry.org/
+  img: assets/img/clients/institute-study-resilience-youth.webp
+- name: Lilly Endowment
+  href: https://lillyendowment.org/
+  img: assets/img/clients/lilly-endowment.jpg
+- name: Partnerships in Education and Resilience
+  href: https://www.pearinc.org/
+  img: assets/img/clients/partnerships-education-resilience.png
+- name: Playworks
+  href: https://playworks.org/
+  img: assets/img/clients/playworks.png
+- name: Project Evident
+  href: https://www.projectevident.org/
+  img: assets/img/clients/project-evident.png
+- name: The Learning Agenda
+  href: https://agenda4learning.com/
+  img: assets/img/clients/the-learning-agenda.png
+- name: United Way of Fresno & Madera Counties
+  href: https://www.uwfm.org/
+  img: assets/img/clients/united-way-fresno-madera.png
+- name: Wallace Foundation
+  href: https://www.wallacefoundation.org/
+  img: assets/img/clients/wallace-foundation.svg
+- name: Wyman Center
+  href: https://wymancenter.org/
+  img: assets/img/clients/wyman-center.png

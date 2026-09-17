@@ -1,0 +1,19 @@
+<section id="expertise" class="tint-cream" data-screen-label="02 Expertise">
+  <div class="container">
+    <div class="section-label reveal"><span class="num">01 —</span><span>What I do</span></div>
+    <h2 class="section-title reveal">Six ways I help foundations and nonprofits do their <em>best work.</em></h2>
+
+    <div class="expertise-grid reveal">
+      {% for item in site.data.expertise %}
+      <div class="expertise-cell" style="--accent:var(--{{ item.accent }})">
+        <div>
+          <div class="num">{{ item.num }}</div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
+        <div class="swatch" aria-hidden="true"></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

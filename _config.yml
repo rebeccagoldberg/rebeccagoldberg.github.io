@@ -9,6 +9,13 @@ url: "https://rebeccagoldberg.org" # the base hostname & protocol for your site 
 author: Rebecca Goldberg
 logo: /assets/img/logo3.png
 lang: en_US
+social:
+  linkedin: https://www.linkedin.com/in/rebeccamgoldberg/
+contact_form_action: https://formcarry.com/s/4T13S9tj6m
+job_title: Independent Consultant, Youth Development & Philanthropy
+area_served: United States
+address_region: California
+address_locality: San Francisco Bay Area
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
