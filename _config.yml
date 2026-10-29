@@ -12,6 +12,8 @@ lang: en_US
 social:
   linkedin: https://www.linkedin.com/in/rebeccamgoldberg/
 contact_form_action: https://formcarry.com/s/4T13S9tj6m
+# base64 so the address is not in the page HTML; revealed on click by main.js
+contact_email_b64: cmViZWNjYW1nb2xkYmVyZ0BnbWFpbC5jb20=
 job_title: Independent Consultant, Youth Development & Philanthropy
 area_served: United States
 address_region: California

@@ -2,7 +2,7 @@
   <div class="container nav-inner">
     <a href="#top" class="brand">
       <img class="brand-logo" src="{{ '/assets/img/logo3.png' | relative_url }}" alt="" width="32" height="32" />
-      {{ site.title }}
+      <span class="brand-name">{{ site.author }}<span class="brand-sub"> Consulting</span></span>
     </a>
     <div class="nav-links">
       {% for item in site.data.nav %}
@@ -20,7 +20,6 @@
       {% for item in site.data.nav %}
       <a href="{{ item.href }}">{{ item.text }}</a>
       {% endfor %}
-      <a href="#contact" class="nav-cta">Get in touch</a>
     </div>
   </div>
 </nav>
