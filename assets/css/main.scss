@@ -739,6 +739,43 @@ section {
   opacity: 1;
 }
 
+.client.logo-blend img {
+  mix-blend-mode: multiply;
+}
+
+.client.logo-large {
+  padding: 16px;
+}
+
+/* explicit height: the <img height="44"> attribute otherwise beats max-height */
+.client.logo-large img {
+  height: 64px;
+  max-height: none;
+}
+
+.client.logo-xl {
+  padding: 9px;
+}
+
+.client.logo-xl img {
+  height: 77px;
+}
+
+/* optical centering for logos with uneven built-in margins */
+.client.logo-nudge img {
+  transform: translate(-4px, -4px);
+}
+
+/* wide wordmarks are width-limited: trade side padding for size */
+.client.logo-wide {
+  padding: 16px 6px;
+}
+
+.client.logo-wide img {
+  width: 100%;
+  height: auto;
+}
+
 .client.logo-invert img {
   filter: invert(1);
 }
@@ -756,6 +793,30 @@ section {
 
   .client img {
     max-height: 34px;
+  }
+
+  .client.logo-large {
+    padding: 12px;
+  }
+
+  .client.logo-large img {
+    height: 52px;
+  }
+
+  .client.logo-xl {
+    padding: 6px;
+  }
+
+  .client.logo-xl img {
+    height: 64px;
+  }
+
+  .client.logo-wide {
+    padding: 12px 6px;
+  }
+
+  .client.logo-wide img {
+    height: auto;
   }
 }
 
@@ -1186,5 +1247,33 @@ footer {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+}
+
+/* ====== CURRENT WORK ====== */
+.current-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 820px;
+  border-top: 1px solid var(--rule);
+}
+
+.current-list li {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.current-list a {
+  color: var(--coral-text);
+}
+
+@media (max-width: 720px) {
+  .current-list li {
+    font-size: 19px;
   }
 }

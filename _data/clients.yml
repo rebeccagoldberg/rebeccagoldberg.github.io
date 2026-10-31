@@ -5,6 +5,11 @@
   href: https://www.air.org/
   img: assets/img/clients/american-institutes-for-research.png
   invert: true
+- name: Bay Area Community Resources
+  href: https://www.bacr.org/
+  img: assets/img/clients/bacr.png
+  blend: true
+  large: true
 - name: Children's Funding Project
   href: https://childrensfundingproject.org/
   img: assets/img/clients/childrens-funding-project.png
@@ -27,18 +32,27 @@
 - name: Lilly Endowment
   href: https://lillyendowment.org/
   img: assets/img/clients/lilly-endowment.jpg
+  blend: true
+  large: true
+  wide: true
 - name: Partnerships in Education and Resilience
   href: https://www.pearinc.org/
   img: assets/img/clients/partnerships-education-resilience.png
+  blend: true
 - name: Playworks
   href: https://playworks.org/
   img: assets/img/clients/playworks.png
+  large: true
 - name: Project Evident
   href: https://www.projectevident.org/
   img: assets/img/clients/project-evident.png
+  nudge: true
 - name: The Learning Agenda
   href: https://agenda4learning.com/
   img: assets/img/clients/the-learning-agenda.png
+  blend: true
+  large: true
+  xl: true
 - name: United Way of Fresno & Madera Counties
   href: https://www.uwfm.org/
   img: assets/img/clients/united-way-fresno-madera.png

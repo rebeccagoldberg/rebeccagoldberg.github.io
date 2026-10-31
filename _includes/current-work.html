@@ -1,0 +1,12 @@
+<section id="current-work" class="tint-cream" data-screen-label="03 Current work">
+  <div class="container">
+    <div class="section-label reveal"><span class="num">03 —</span><span>Right now</span></div>
+    <h2 class="section-title reveal">What I’m working on.</h2>
+
+    <ul class="current-list reveal">
+      {% for item in site.data.current_work %}
+      <li>{{ item.text }}{% if item.link %} <a href="{{ item.href }}" target="_blank" rel="noreferrer">{{ item.link }} ↗</a>{% endif %}{% if item.after %} {{ item.after }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

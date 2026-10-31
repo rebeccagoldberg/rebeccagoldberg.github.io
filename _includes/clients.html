@@ -1,7 +1,7 @@
-<section id="clients" class="tint-warm" data-screen-label="03 Clients">
+<section id="clients" class="tint-warm" data-screen-label="04 Clients">
   <div class="container">
-    <div class="section-label reveal"><span class="num">03 —</span><span>Clients</span></div>
-    <h2 class="section-title reveal">Past &amp; current clients.</h2>
+    <div class="section-label reveal"><span class="num">04 —</span><span>Clients</span></div>
+    <h2 class="section-title reveal">Current &amp; past clients.</h2>
     <p class="section-intro reveal">
       A selection of foundations, intermediaries, and field-building organizations
       I’ve had the privilege of working with.
@@ -10,7 +10,7 @@
     <div class="clients-wrap reveal">
       <div class="clients-grid">
         {% for client in site.data.clients %}
-        <a class="client{% if client.invert %} logo-invert{% endif %}" href="{{ client.href }}" target="_blank" rel="noreferrer">
+        <a class="client{% if client.invert %} logo-invert{% endif %}{% if client.blend %} logo-blend{% endif %}{% if client.large %} logo-large{% endif %}{% if client.wide %} logo-wide{% endif %}{% if client.xl %} logo-xl{% endif %}{% if client.nudge %} logo-nudge{% endif %}" href="{{ client.href }}" target="_blank" rel="noreferrer">
           <img src="{{ client.img | relative_url }}" alt="{{ client.name }}" loading="lazy" width="120" height="44" />
         </a>
         {% endfor %}
